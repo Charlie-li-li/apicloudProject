@@ -1,0 +1,217 @@
+.shopHead {
+    background: #ec404e;
+    color: #fff;
+    position: relative;
+}
+.headF {
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.shopHead a {
+    position: absolute;
+    left: 10px;
+}
+.shopHead a i {
+    display: inline-block;
+    border-left: 2px solid;
+    border-bottom: 2px solid;
+    width: 9px;
+    height: 9px;
+    transform: rotate(45deg);
+    margin-right: 3px;
+}
+.shopHead .headF img {
+    position: absolute;
+    right: 10px;
+    width: 25px;
+    top: 8px;
+}
+.headS{
+    display: flex;
+    padding: 10px;
+}
+.headS_text {
+    align-self: flex-end;
+    padding: 0 10px;
+}
+.headS_text div:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.headS_text_divF{
+    margin-bottom: 10px;
+}
+.headS_text div p {
+    float: left;
+}
+.headS_text div .headS_text_divF_pF{
+    font-weight: bold;
+    font-size: 16px;
+}
+.headS_text div .headS_text_divF_pS{
+    margin-left: 5px;
+    background-color: #cbe084;
+    padding: 2px;
+    color: #666;
+    font-weight: bold;
+}
+.headS img {
+    width: 65px;
+    height: 65px;
+}
+
+.body {
+    text-align: center;
+    padding: 10px;
+    background-color: #f5f5f5;
+}
+
+.body .bodyDivF,.body .bodyDivS,.body .bodyDivT button{
+    background-color: #ededed;
+    box-shadow: 2px 2px 2px #d6d6d6;
+    border: 1px solid #d6d6d6;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.body .bodyDivF,.body .bodyDivS{
+    padding: 10px;
+    display: flex;
+}
+
+.body .bodyDivT button{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 15px;
+}
+
+.body .bodyDivImg{
+    width: 120px;
+    height: 140px;
+}
+
+.body .bodyDivFImgS{
+    width: 50px;
+    height: 35px;
+}
+
+.body .bodyDivF .bodyDivFDiv{
+    flex: 1;
+    text-align: left;
+    padding-left: 8px;
+}
+
+.body .bodyDivF .bodyDivFDiv p{
+    margin-bottom: 10px;
+}
+
+.body .bodyDivF .bodyDivFDiv button{
+    background-color: #ec404e;
+    color: #fff;
+    margin-right: 15px;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 4px;
+    width: 60px;
+    letter-spacing: 5px;
+    padding-right: 0px;
+}
+
+.body .bodyDivS .bodyDivSDiv{
+    padding-left: 10px;
+}
+
+.body .bodyDivS .bodyDivSDiv>div{
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.body .bodyDivS .bodyDivSDiv>div>input{
+    width: 160px;
+    border: 1px solid #999999;
+    padding-left: 10px;
+    border-radius: 3px;
+}
+
+.body .bodyDivS .bodyDivSDiv>div .testCode{
+    width: 70px;
+}
+
+.body .bodyDivS .bodyDivSDiv>div .getTestCode{
+    background-color: #fff;
+    padding: 0 3px;
+    color: #ec404e;
+    font-weight: bold;
+}
+
+.body .bodyDivSDiv .bodyDivSDivD{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 0;
+}
+
+.body .bodyDivSDiv .bodyDivSDivD button{
+    background-color: #ec404e;
+    color: #fff;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 4px;
+    width: 60px;
+    letter-spacing: 5px;
+    padding-right: 0px;
+}
+
+.body .bodyDivSDiv #radio{
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff;
+    border: solid 1px #dddddd;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    font-size: 12rem;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    vertical-align: top;
+    cursor: default;
+    -webkit-appearance: none;
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-transition: background-color ease 0.1s;
+    transition: background-color ease 0.1s;
+    position: relative;
+    /*top: 20px;*/
+    /*left: 4px;*/
+    outline: none;
+}
+
+.body .bodyDivSDiv #radio:checked {
+    background-color: #ec404e;
+    border: solid 1px #ec404e;
+    text-align: center;
+    background-clip: padding-box;
+}
+
+.body .bodyDivSDiv #radio:checked:before {
+    content: "";
+    width: 13px;
+    height: 7px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    margin-left: 3px;
+    margin-top: 4px;
+    background: transparent;
+    border: 1px solid #ffffff;
+    border-top: none;
+    border-right: none;
+    z-index: 2;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}

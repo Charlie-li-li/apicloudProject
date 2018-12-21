@@ -1,0 +1,170 @@
+.shopHead {
+    background: #ec404e;
+    color: #fff;
+    position: relative;
+}
+.headF {
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+.shopHead a {
+    position: absolute;
+    left: 10px;
+}
+.shopHead a i {
+    display: inline-block;
+    border-left: 2px solid;
+    border-bottom: 2px solid;
+    width: 9px;
+    height: 9px;
+    transform: rotate(45deg);
+    margin-right: 3px;
+}
+.shopHead .headF img {
+    position: absolute;
+    right: 10px;
+    width: 25px;
+    top: 8px;
+}
+.headS{
+    display: flex;
+    padding: 10px;
+}
+.headS_text {
+    align-self: flex-end;
+    padding: 0 10px;
+}
+.headS_text div:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.headS_text_divF{
+    margin-bottom: 10px;
+}
+.headS_text div p {
+    float: left;
+}
+.headS_text div .headS_text_divF_pF{
+    font-weight: bold;
+    font-size: 16px;
+}
+.headS_text div .headS_text_divF_pS{
+    margin-left: 5px;
+    background-color: #cbe084;
+    padding: 2px;
+    color: #666;
+    font-weight: bold;
+}
+.headS img {
+    width: 65px;
+    height: 65px;
+}
+
+.body {
+    text-align: center;
+    padding: 10px;
+    background-color: #f5f5f5;
+}
+
+.body .bodyDivF{
+    position: relative;
+}
+
+.body .bodyDivF .bodyDivFDiv{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    width: 95%;
+    flex-direction: column;
+    text-align: left;
+    height: 85%;
+    color: #fff;
+}
+
+.body .bodyDivF .bodyDivFDiv p{
+    flex: 1;
+}
+
+.body .bodyDivF .bodyDivFDiv div{
+    flex: 1;
+    align-self: flex-end;
+    width: 50px;
+}
+
+.body .bodyDivF .bodyDivFDiv p:nth-child(2){
+    font-size: 18px;
+}
+
+.body .bodyDivSDivF,.body .bodyDivSDivS,.body .bodyDivSDivT{
+    display: flex;
+}
+
+.body .bodyDivSDivS p,.body .bodyDivSDivT p{
+    flex: 1;
+}
+
+.body .bodyDivSDivT{
+    margin: 5px 0;
+    background: linear-gradient(#fff,#cecece);
+    padding: 3px 0;
+    line-height: 18px;
+}
+
+.body .bodyDivSDivS{
+    padding: 5px 0;
+    font-weight: bold;
+    color: #ec404e;
+}
+
+.body .bodyDivSDivS p{
+    padding: 5px 0;
+}
+
+.body .bodyDivSDivS p:nth-child(2){
+    border-top: 1px solid #ec404e;
+    border-left: 1px solid #ec404e;
+    border-radius: 3px;
+    background: linear-gradient(#cecece,#fff);
+}
+
+.body .bodyDivSDivF{
+    padding: 10px 5px;
+    background-color: #e1e1e1;
+}
+
+.body .bodyDivSDivF select,.body .bodyDivSDivF input{
+    margin: 0 3px;
+    border-radius: 5px;
+}
+
+.body .bodyDivSDivF input{
+    width: 80%;
+    padding-left: 5px;
+}
+
+.body .bodyDivSDivF img{
+    width: 25px;
+    height: 25px;
+}
+
+.body .bodyDivSDivFourth{
+    padding: 5px;
+}
+
+.body .bodyDivTDivF,.body .bodyDivTDivS{
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 0;
+}
+
+.body .bodyDivTDivF i{
+    color: #ec404e;
+}
+
+.body .bodyDivFourth{
+    text-align: right;
+    padding: 5px;
+}

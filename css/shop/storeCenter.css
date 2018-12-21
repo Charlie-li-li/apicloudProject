@@ -1,4 +1,4 @@
-.head {
+.shopHead {
     background: #ec404e;
     color: #fff;
     position: relative;
@@ -8,11 +8,11 @@
     text-align: center;
     line-height: 50px;
   }
-  .head a {
+  .shopHead a {
     position: absolute;
     left: 10px;
   }
-  .head a i {
+  .shopHead a i {
     display: inline-block;
     border-left: 2px solid;
     border-bottom: 2px solid;
@@ -21,7 +21,7 @@
     transform: rotate(45deg);
     margin-right: 3px;
   }
-  .head .headF img {
+  .shopHead .headF img {
     position: absolute;
     right: 10px;
     width: 25px;
