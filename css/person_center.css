@@ -1,0 +1,9 @@
+body {
+  background-color: #f5f5f5;
+}
+
+.center .list img {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+}
