@@ -1,0 +1,109 @@
+.head {
+  background: #ec404e;
+  height: 50px;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  line-height: 50px;
+  position: relative;
+}
+.head a {
+  position: absolute;
+  left: 10px;
+  font-size: 14px;
+}
+.head a i {
+  display: inline-block;
+  border-left: 2px solid;
+  border-bottom: 2px solid;
+  width: 9px;
+  height: 9px;
+  transform: rotate(45deg);
+  margin-right: 3px;
+}
+.logo {
+  height: 160px;
+  background: #f5f5f5;
+  text-align: center;
+}
+
+.logo img {
+  width: 120px;
+  margin-top: 20px;
+}
+
+.form {
+  padding-top: 40px;
+  padding: 0 3px;
+}
+.form div {
+  line-height: 60px;
+  border-bottom: 1px solid #f2f2f2;
+  color: #666;
+  font-size: 14px;
+  position: relative;
+}
+
+.form div span {
+  color: #d12a34;
+}
+
+.form input[type="input"] {
+  border: none;
+  outline: none;
+  height: 30px;
+  padding-left: 30px;
+  width: calc(100% - 30px);
+}
+.form div.agree {
+  color: #333;
+  position: relative;
+}
+.form div.tip {
+  line-height: 30px;
+  border-bottom: none;
+}
+.form div.tip label {
+  display: inline-block;
+  font-size: 12px;
+  padding-left: 32px;
+}
+.form div.code {
+  position: relative;
+}
+.form div.code input {
+  width: 180px;
+}
+.form div.code a {
+  position: absolute;
+  background: #f9b725;
+  top: 15px;
+  right: 10px;
+}
+.form div.submit {
+  width: 100%;
+  border-bottom: none;
+  padding-top: 40px;
+  margin: auto;
+}
+
+.form div.submit a {
+  width: 95%;
+  background: #ec404e;
+  height: 40px;
+  line-height: 40px;
+}
+.form div img:first-child {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  top: 20px;
+  left: 3px;
+}
+.form div img.show {
+  position: absolute;
+  right: 0;
+  top: 22px;
+  height: 26px;
+  width: 36px;
+}
