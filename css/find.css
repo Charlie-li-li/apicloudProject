@@ -1,0 +1,142 @@
+body {
+  background: #f5f5f5;
+  color: #333;
+}
+.home {
+  padding-bottom: 10px;
+}
+.home .head {
+  background-color: #fff;
+  color: #666;
+  font-size: 1rem;
+  font-size: 14px;
+}
+.home .head .item1 {
+  width: 55px;
+}
+.head > .content {
+  padding: 0 10px;
+  display: flex;
+}
+
+.home .head .item1 .down-icon {
+  display: inline-block;
+  width: 14px;
+  height: 8;
+  margin-bottom: 1px;
+}
+
+.home .head .item2 {
+  width: calc(100% - 135px);
+  position: relative;
+}
+.home .head .item2 .content {
+}
+.search-icon {
+  position: absolute;
+  left: 19px;
+  top: 18px;
+  height: 16px;
+  width: 16px;
+}
+.home .head .item2 input {
+  background: #ddd;
+  border-radius: 20px;
+  width: calc(90% - 30px);
+  height: 30px;
+  border: none;
+  outline: none;
+  padding-left: 30px;
+}
+.home .head .item3 {
+  width: 80px;
+}
+.home .head .item3 .code {
+  height: 1.2rem;
+  width: 1.2rem;
+  padding-right: 8px;
+}
+.home .head .item3 .plus {
+  height: 1.2rem;
+  width: 1.2rem;
+}
+
+.find-wrap {
+  margin-bottom: 10px;
+}
+.find-wrap .title {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #333;
+}
+
+.find-wrap .find-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: warp;
+  overflow: hidden;
+  background: #fff;
+  padding: 15px 10px 10px 10px;
+  min-height: 120px;
+}
+
+.find-wrap .find-content > div {
+  width: 33.333%;
+  margin-right: 10px;
+}
+
+.find-wrap .find-content > div:last-child {
+  margin-right: 0;
+}
+
+.find-wrap .find-content > div div {
+  text-align: center;
+  line-height: 30px;
+}
+.tab-content {
+  margin-top: 10px;
+  background: #fff;
+  padding: 0 10px;
+  line-height: 30px;
+}
+.tab-content .item {
+  border-bottom: 1px solid #cccccc;
+  padding: 10px 0 5px 0;
+  margin-bottom: 10px;
+}
+.tab-content .item:last-child {
+  border: none;
+}
+
+.tab-content .item .title {
+  font-size: 16px;
+  color: #333;
+}
+.tab-content .item .desc {
+  font-size: 12px;
+  line-height: 20px;
+  color: #666;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.tab-content .item .fav {
+  font-size: 10px;
+  color: #999999;
+}
+.img {
+  width: 100%;
+}
+.img img {
+  width: 100%;
+  border: none;
+}
+.tab-content .item .fav img {
+  width: 24px;
+  vertical-align: middle;
+  padding-right: 3px;
+  height: 12px;
+}

@@ -34,7 +34,7 @@ body {
 }
 .search-icon {
   position: absolute;
-  left: 24px;
+  left: 19px;
   top: 18px;
   height: 16px;
   width: 16px;
@@ -54,13 +54,11 @@ body {
 .home .head .item3 .code {
   height: 1.2rem;
   width: 1.2rem;
-  margin-top: 16px;
   padding-right: 8px;
 }
 .home .head .item3 .plus {
   height: 1.2rem;
   width: 1.2rem;
-  margin-top: 16px;
 }
 
 .consume {
@@ -195,4 +193,35 @@ body {
   font-size: 12px;
   color: #666;
   position: relative;
+}
+
+.find-wrap {
+  margin-bottom: 10px;
+  padding: 10 0px;
+}
+.find-wrap .title {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #333;
+}
+
+.find-wrap .find-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: warp;
+  overflow: hidden;
+  background: #fff;
+  padding: 15px 10px 10px 10px;
+  min-height: 120px;
+}
+
+.find-wrap .find-content > div {
+  width: 33.333%;
+  margin-right: 10px;
+  position: relative;
+}
+
+.find-wrap .find-content > div:last-child {
+  margin-right: 0;
 }
