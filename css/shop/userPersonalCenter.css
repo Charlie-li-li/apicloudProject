@@ -1,0 +1,142 @@
+.shopHead {
+    color: #fff;
+    position: relative;
+}
+
+.shopHead .headContent{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    display: flex;
+}
+
+.shopHead .headContentHead{
+    width: 18%;
+}
+
+.shopHead .headContentBody{
+    padding-left: 5%;
+    width: 200px;
+}
+
+.shopHead .headContentBody .headContentBodyTop span:first-child{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.shopHead .headContentBody .headContentBodyTop span:last-child{
+    background-color: #cccccc;
+    color: #000;
+    padding: 2px;
+    margin-left: 5px;
+}
+
+.shopHead .headContentBody .headContentBodyBottom{
+    padding-top: 5px;
+}
+
+.shopHead .headContentBody .headContentBodyBottom button{
+    color: rgb(255, 255, 255);
+    background: linear-gradient(rgb(249, 180, 38), rgb(236, 64, 78));
+    padding: 2px 7px;
+    border-radius: 5px;
+    margin-left: 2%;
+}
+
+.shopHead .headRight{
+    position: absolute;
+    top: 15%;
+    width: 25px;
+    right: 15px;
+}
+
+.body {
+    text-align: center;
+    padding: 10px 5px;
+    background-color: #f5f5f5;
+}
+
+.body i{
+    color: #ec404e;
+}
+
+.body .bodyHead{
+    display: flex;
+}
+
+.body .bodyHead .bodyHeadTop{
+    flex: 1;
+    align-self: center;
+    text-align: left;
+    padding: 20px 0;
+    background-color: #fff;
+    margin-right: 5px;
+    padding-right: 5px;
+}
+
+.body .bodyHead .bodyHeadTop p{
+    padding-left: 20px;
+}
+
+.body .bodyHead .bodyHeadTop p:first-child i{
+    font-size: 25px;
+}
+
+.body .bodyHead .bodyHeadTop p:first-child span{
+    color: #ec404e;
+}
+
+.body .bodyHead .bodyHeadBottom{
+    display: flex;
+    flex: 1;
+    padding: 0 10px;
+    align-items: center;
+    border-bottom: 1px solid #999;
+    padding-bottom: 5px;
+    background-color: #fff;
+    margin-left: 5px;
+}
+
+.body .bodyHead .bodyHeadBottom .bodyHeadBottomTop p:last-child{
+    border-top: 1px solid #999;
+}
+
+.body .bodyHead .bodyHeadBottom .bodyHeadBottomBot{
+    padding-left: 15px;
+    border-left: 1px solid #999;
+    margin-left: 10px;
+}
+
+.body .bodyImg{
+    padding: 15px 0;
+}
+
+.body .bodyContent{
+    display: flex;
+    padding: 10px 0;
+    background-color: #fff;
+}
+
+.body .bodyContent p:first-child{
+    flex: 2;
+    text-align: left;
+    padding-left: 25px;
+}
+
+.body .bodyContent p:last-child{
+    flex: 1;
+}
+
+.body .bodyFoot>div{
+    display: flex;
+    text-align: center;
+    padding: 10px;
+}
+
+.body .bodyFoot>div>div{
+    flex: 1;
+}
+
+.body .bodyFoot>div>div img{
+    height: 35px;
+}

@@ -1,0 +1,22 @@
+.shopHead {
+    color: #999;
+    position: relative;
+}
+.headF {
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+.shopHead a {
+    position: absolute;
+    left: 10px;
+}
+.shopHead a i {
+    display: inline-block;
+    border-left: 2px solid;
+    border-bottom: 2px solid;
+    width: 9px;
+    height: 9px;
+    transform: rotate(45deg);
+    margin-right: 3px;
+}
