@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9d89c94-897f-4f09-ac5f-d28dc4a662c9" name="Default Changelist" comment="111" />
+    <list default="true" id="c9d89c94-897f-4f09-ac5f-d28dc4a662c9" name="Default Changelist" comment="111">
+      <change afterPath="$PROJECT_DIR$/css/shop/editorBusinessIntroduction.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/shop/editorBusinessIntroduction.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/shop/sponsorshipDetails.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/shop/sponsorshipDetails.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/shop/sponsorshipDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/shop/sponsorshipDetails.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/收银员/config.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/收银员/huaxuLogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/收银员/头部背景.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/收银员/收款二维码.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/收银员/放大镜图标.png" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -16,19 +27,19 @@
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="525">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/html/shop/billDetails.html">
+            <entry file="file://$PROJECT_DIR$/html/shop/applicationSponsorship.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="5152">
-                  <caret line="161" column="7" selection-start-line="161" selection-start-column="7" selection-end-line="161" selection-end-column="7" />
+                <state relative-caret-position="128">
+                  <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/html/shop/sponsorshipDetails.html">
+            <entry file="file://$PROJECT_DIR$/html/shop/editorBusinessIntroduction.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2240">
-                  <caret line="103" column="14" selection-start-line="103" selection-start-column="14" selection-end-line="103" selection-end-column="14" />
+                <state relative-caret-position="1048">
+                  <caret line="121" column="14" selection-start-line="121" selection-start-column="14" selection-end-line="121" selection-end-column="14" />
                 </state>
               </provider>
             </entry>
@@ -38,10 +49,10 @@
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="525">
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/css/shop/sponsorshipDetails.css">
+            <entry file="file://$PROJECT_DIR$/css/shop/editorBusinessIntroduction.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="929">
-                  <caret line="68" column="1" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
+                <state relative-caret-position="255">
+                  <caret line="150" column="1" selection-start-line="150" selection-start-column="1" selection-end-line="150" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -64,6 +75,7 @@
       <find>head</find>
       <find>bodyDivF</find>
       <find>bodyDivFourth</find>
+      <find>bodyDivContent</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -86,16 +98,17 @@
         <option value="$PROJECT_DIR$/css/shop/applicationSponsorship.css" />
         <option value="$PROJECT_DIR$/html/shop/billDetails.html" />
         <option value="$PROJECT_DIR$/css/shop/billDetails.css" />
-        <option value="$PROJECT_DIR$/css/shop/sponsorshipDetails.css" />
         <option value="$PROJECT_DIR$/html/shop/sponsorshipDetails.html" />
+        <option value="$PROJECT_DIR$/css/shop/sponsorshipDetails.css" />
+        <option value="$PROJECT_DIR$/css/shop/editorBusinessIntroduction.css" />
+        <option value="$PROJECT_DIR$/html/shop/editorBusinessIntroduction.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2058" />
-    <option name="y" value="87" />
-    <option name="width" value="1237" />
-    <option name="height" value="1000" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1058" />
+    <option name="width" value="2393" />
+    <option name="height" value="1407" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -153,7 +166,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../新建文件夹/apicloudProject" />
+    <property name="last_opened_file_path" value="F:/新建文件夹/apicloudProject" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -190,7 +203,8 @@
       <workItem from="1545392956582" duration="1962000" />
       <workItem from="1545394990560" duration="2345000" />
       <workItem from="1545397353360" duration="4755000" />
-      <workItem from="1545402474396" duration="645000" />
+      <workItem from="1545402474396" duration="6748000" />
+      <workItem from="1545450793984" duration="270000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1545400929046</created>
@@ -203,12 +217,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9707000" />
+    <option name="totallyTimeSpent" value="16080000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="3456" height="1416" extended-state="6" />
+    <frame x="1058" y="0" width="2393" height="1407" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15470588" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14933676" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -289,38 +304,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/shop/applicationSponsorship.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/shop/receiptCode.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="11" column="55" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/shop/cashier.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/shop/storeCenter.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/shop/bindingCashier.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -338,24 +325,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/shop/billDetails.html">
+    <entry file="file://$PROJECT_DIR$/css/shop/sponsorshipDetails.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5152">
-          <caret line="161" column="7" selection-start-line="161" selection-start-column="7" selection-end-line="161" selection-end-column="7" />
+        <state relative-caret-position="160">
+          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/shop/receiptCode.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="11" column="55" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/shop/sponsorshipDetails.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2240">
-          <caret line="103" column="14" selection-start-line="103" selection-start-column="14" selection-end-line="103" selection-end-column="14" />
+        <state relative-caret-position="64">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/shop/sponsorshipDetails.css">
+    <entry file="file://$PROJECT_DIR$/html/shop/cashier.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="929">
-          <caret line="68" column="1" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
+        <state relative-caret-position="448">
+          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/shop/bindingCashier.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/shop/billDetails.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1089">
+          <caret line="161" column="7" selection-start-line="161" selection-start-column="7" selection-end-line="161" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/shop/applicationSponsorship.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/shop/editorBusinessIntroduction.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1048">
+          <caret line="121" column="14" selection-start-line="121" selection-start-column="14" selection-end-line="121" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/shop/editorBusinessIntroduction.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="150" column="1" selection-start-line="150" selection-start-column="1" selection-end-line="150" selection-end-column="1" />
         </state>
       </provider>
     </entry>

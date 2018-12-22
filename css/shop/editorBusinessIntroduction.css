@@ -1,0 +1,173 @@
+.shopHead {
+    background: #ec404e;
+    color: #fff;
+    position: relative;
+}
+.headF {
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+.shopHead a {
+    position: absolute;
+    left: 10px;
+}
+.shopHead a i {
+    display: inline-block;
+    border-left: 2px solid;
+    border-bottom: 2px solid;
+    width: 9px;
+    height: 9px;
+    transform: rotate(45deg);
+    margin-right: 3px;
+}
+.shopHead .headF img {
+    position: absolute;
+    right: 10px;
+    width: 25px;
+    top: 8px;
+}
+.headS{
+    display: flex;
+    padding: 10px;
+}
+.headS_text {
+    align-self: flex-end;
+    padding: 0 10px;
+}
+.headS_text div:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.headS_text_divF{
+    margin-bottom: 10px;
+}
+.headS_text div p {
+    float: left;
+}
+.headS_text div .headS_text_divF_pF{
+    font-weight: bold;
+    font-size: 16px;
+}
+.headS_text div .headS_text_divF_pS{
+    margin-left: 5px;
+    background-color: #cbe084;
+    padding: 2px;
+    color: #666;
+    font-weight: bold;
+}
+.headS img {
+    width: 65px;
+    height: 65px;
+}
+
+.body {
+    text-align: center;
+    padding: 10px;
+    background-color: #f5f5f5;
+}
+
+.body i{
+    color: #ec404e;
+}
+
+.body .bodyPF{
+    text-align: left;
+    color: #999999;
+}
+
+.body .bodyDivF{
+    display: flex;
+    padding: 5px 0;
+}
+
+.body .bodyDivF>div div{
+    display: flex;
+    padding: 3px 0;
+}
+
+.body .bodyDivF>div div p:first-child{
+    text-align: right;
+    width: 70px;
+}
+
+.body .bodyDivF .bodyDivFDivS{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.body .bodyDivF .bodyDivFDivS img{
+    width: 15px;
+    height: 20px;
+}
+
+.body .bodyDivContent{
+    display: flex;
+    padding: 5px 0;
+}
+
+.body .bodyDivContent p{
+    text-align: right;
+    width: 70px;
+}
+
+.body .bodyDivContent>div{
+    width: 75%;
+}
+
+.body .bodyDivContent textarea{
+    width: 100%;
+    border: 1px solid #999;
+}
+
+.body .bodyDivContentImg{
+    display: flex;
+    padding: 5px 0;
+}
+
+.body .bodyDivContentImg>div{
+    text-align: left;
+    width: 75%;
+}
+
+.body .bodyDivContentImg>div img{
+    width: 30%;
+}
+
+.body .bodyDivContentImg>div>div{
+    padding: 5px 0;
+}
+
+.body .bodyDivContentImg>div>div button{
+    background-color: #fff;
+    padding: 3px;
+    border-radius: 5px;
+    margin: 0 5px;
+    border: 1px solid #999;
+}
+
+.bodyBtnBottom{
+    width: 100%;
+    background-color: #f5f5f5;
+    border: 1px solid #999999;
+    color: #999999;
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+.bodyBtnDivBottom{
+    text-align: right;
+}
+
+.bodyBtnDivBottom button{
+    background-color: #fff;
+    padding: 3px;
+    border-radius: 5px;
+    margin: 0 5px;
+    border: 1px solid #999;
+}
