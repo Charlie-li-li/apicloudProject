@@ -1,12 +1,8 @@
 .shopHead {
-    color: #999;
+    color: #545454;
     position: relative;
 }
-.headF {
-    height: 50px;
-    text-align: center;
-    line-height: 50px;
-}
+
 .shopHead a {
     position: absolute;
     left: 10px;
@@ -19,4 +15,126 @@
     height: 9px;
     transform: rotate(45deg);
     margin-right: 3px;
+}
+
+.headF {
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    position: relative;
+}
+
+.headF div{
+    position: absolute;
+    width: 60px;
+    top: 0px;
+    right: 5px;
+}
+
+.body{
+    background-color: #e0e0e0;
+}
+
+.body .bodyHeadTop{
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    border-bottom: 1px solid #999;
+    background-color: #fff;
+}
+
+.body .bodyHeadTop img{
+    width: 80px;
+    padding-bottom: 5px;
+}
+
+.body .bodyHeadTop span:nth-child(3){
+    color: #feb403;
+}
+
+.body .bodyHeadTop span:last-child{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    background-color: #ec404e;
+    color: #fff;
+    padding: 2px 3px;
+    border-radius: 3px;
+}
+
+.body .bodyHeadBottom{
+    padding: 10px;
+    background-color: #fff;
+}
+
+.body .bodyHeadBottom img:first-child{
+    width: 15px;
+}
+
+.body .bodyHeadBottom img:last-child{
+    width: 15px;
+    position: absolute;
+    right: 10px;
+}
+
+.body .bodyContentHead{
+    display: flex;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #fff;
+}
+
+.body .bodyContentHead .bodyContentHeadTop{
+    width: 60px;
+    margin-right: 2%;
+}
+
+.body .bodyContentHead .bodyContentHeadContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.body .bodyContentHead .bodyContentHeadContent h3{
+    font-size: 15px;
+}
+
+.body .bodyContentHead .bodyContentHeadBottom{
+    width: 45px;
+    position: absolute;
+    right: 10px;
+}
+
+.body .bodyContentBody{
+    padding: 10px;
+    background-color: #fff;
+}
+
+.body .bodyContentBody p{
+    padding: 10px 5px;
+}
+
+.body .bodyContentBody p:first-child,.body .bodyContentBody .bodyContentBody button{
+    text-align: center;
+    font-size: 14px;
+}
+
+.body .bodyContentBody p:first-child{
+    font-weight: bold;
+}
+
+.body .bodyContentBody .bodyContentBody button{
+    background: linear-gradient(#f9b426,#ec404e);
+    padding: 5px;
+    color: #fff;
+    width: 49%;
+}
+
+.body .bodyContentBody .bodyContentBody button:first-child{
+    border-radius: 15px 0 0 15px;
+}
+
+.body .bodyContentBody .bodyContentBody button:last-child{
+    border-radius: 0 15px 15px 0;
 }

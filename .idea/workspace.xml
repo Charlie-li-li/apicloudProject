@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9d89c94-897f-4f09-ac5f-d28dc4a662c9" name="Default Changelist" comment="111">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/shop/landingPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/shop/landingPage.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/shop/merchantDetails.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/shop/merchantDetails.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/shop/myOrder.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/shop/myOrder.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/shop/userPersonalCenter.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/shop/userPersonalCenter.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/shop/landingPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/shop/landingPage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/shop/merchantDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/shop/merchantDetails.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/shop/myOrder.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/shop/myOrder.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/shop/userPersonalCenter.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/shop/userPersonalCenter.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,20 +21,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.49023637">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="525">
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/html/shop/merchantDetails.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="704">
-                  <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/html/shop/cashier.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-1288">
-                  <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+                <state relative-caret-position="664">
+                  <caret line="58" column="39" lean-forward="true" selection-start-line="58" selection-start-column="39" selection-end-line="58" selection-end-column="39" />
                 </state>
               </provider>
             </entry>
@@ -53,8 +37,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/shop/merchantDetails.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="224">
-                  <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+                <state relative-caret-position="445">
+                  <caret line="111" column="1" lean-forward="true" selection-start-line="111" selection-start-column="1" selection-end-line="111" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -81,6 +65,7 @@
       <find>.body .bodyHead span</find>
       <find>.shopHead .headContentBody .headContentBodyTop span:last-child</find>
       <find>headF</find>
+      <find>bodyContentHeadContent</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -113,12 +98,12 @@
         <option value="$PROJECT_DIR$/css/shop/myOrder.css" />
         <option value="$PROJECT_DIR$/html/shop/userPersonalCenter.html" />
         <option value="$PROJECT_DIR$/css/shop/userPersonalCenter.css" />
-        <option value="$PROJECT_DIR$/css/shop/merchantDetails.css" />
         <option value="$PROJECT_DIR$/html/shop/merchantDetails.html" />
+        <option value="$PROJECT_DIR$/css/shop/merchantDetails.css" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="1087" />
     <option name="width" value="2364" />
     <option name="height" value="1407" />
@@ -220,7 +205,7 @@
       <workItem from="1545397353360" duration="4755000" />
       <workItem from="1545402474396" duration="6748000" />
       <workItem from="1545450793984" duration="14708000" />
-      <workItem from="1545474979424" duration="11195000" />
+      <workItem from="1545474979424" duration="17122000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1545400929046</created>
@@ -233,7 +218,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41713000" />
+    <option name="totallyTimeSpent" value="47640000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1087" y="0" width="2364" height="1407" extended-state="0" />
@@ -341,13 +326,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/shop/bindingCashier.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/shop/billDetails.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1089">
@@ -418,13 +396,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/shop/merchantDetails.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/shop/landingPage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
@@ -452,17 +423,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/shop/merchantDetails.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/shop/cashier.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1288">
           <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/shop/bindingCashier.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/shop/merchantDetails.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="664">
+          <caret line="58" column="39" lean-forward="true" selection-start-line="58" selection-start-column="39" selection-end-line="58" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/shop/merchantDetails.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="111" column="1" lean-forward="true" selection-start-line="111" selection-start-column="1" selection-end-line="111" selection-end-column="1" />
         </state>
       </provider>
     </entry>
